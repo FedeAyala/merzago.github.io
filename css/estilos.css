@@ -11,7 +11,7 @@ body{
     position: absolute;
     bottom: 3%;
     left: 2%;
-    color: violet;
+    color: #FED2FF;
 }
 .title:hover{
     transform: scale(1.1);
