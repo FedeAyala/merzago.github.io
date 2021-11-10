@@ -12,6 +12,7 @@ body{
     bottom: 3%;
     left: 2%;
     color: #FED2FF;
+    font-family: 'Carattere', cursive;
 }
 .title:hover{
     transform: scale(1.1);
