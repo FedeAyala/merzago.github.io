@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded',function(){
     let contador = 0
     const contenedor = document.querySelector('.slideshow')
     const overlay = document.querySelector('.overlay')
+    const overlay2 = document.querySelector('.overlay2')
     const galeria_imagenes = document.querySelectorAll('.galeria img')
     const img_slideshow = document.querySelector('.slideshow img')
 
@@ -53,9 +54,17 @@ document.addEventListener('DOMContentLoaded',function(){
             overlay.style.visibility = 'visible'
         })
     })
+
+    document.querySelector('.btn_cerrar2').addEventListener('click', ()=>{
+        overlay2.style.opacity = 0
+        overlay2.style.visibility = 'hidden'
+    })
+    
     document.querySelector('.btn_cerrar').addEventListener('click', ()=>{
         overlay.style.opacity = 0
         overlay.style.visibility = 'hidden'
     })
+
+    
 
 })
