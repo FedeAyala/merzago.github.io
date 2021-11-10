@@ -5,6 +5,17 @@ body{
 .container{
     height: auto;
 }
+.title{
+    font-size: 25px;
+    z-index: 150;
+    position: absolute;
+    bottom: 3%;
+    left: 2%;
+    color: violet;
+}
+.title:hover{
+    transform: scale(1.1);
+}
 
 .segmento14{
     width: 25%;
@@ -20,7 +31,7 @@ body{
 .segmento13{
     width: 10%;
     right: 0%;
-    margin-top: 5%;
+    margin-top: 7%;
     position: fixed;
     z-index: 130;
     cursor: pointer;
@@ -225,29 +236,30 @@ body{
     cursor: pointer;
 }
 .botones{
-    width: 70px;
-    height: 70px;
+    width: 30px;
+    height: 30px;
     border-radius: 50%;
     color: #000;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 70px;
+    font-size: 50px;
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     cursor: pointer;
-    color: darkkhaki;
+    color: darkkhaki;    
 }
 .botones:hover >i{
     transform: scale(1.1);
     transition: all .2s ease;
 }
 .atras{
-    left: 20px;
+    left: 50px;
+
 }
 .adelante{
-    right: 20px;
+    right: 50px;
 }
 .mdi{
     pointer-events: none;
