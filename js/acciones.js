@@ -1,18 +1,18 @@
 document.addEventListener('DOMContentLoaded',function(){
     let imagenes =[
-        {img: '/imagenes/SEGMENTO 1.png'},
-        {img: '/imagenes/SEGMENTO 2.png'},
-        {img: '/imagenes/SEGMENTO 3.png'},
-        {img: '/imagenes/SEGMENTO 4.png'},
-        {img: '/imagenes/SEGMENTO 5.png'},
-        {img: '/imagenes/SEGMENTO 6.png'},
-        {img: '/imagenes/SEGMENTO 7.png'},
-        {img: '/imagenes/SEGMENTO 8.png'},
-        {img: '/imagenes/SEGMENTO 9.png'},
-        {img: '/imagenes/SEGMENTO 11.png'},
-        {img: '/imagenes/SEGMENTO 12.png'},
-        {img: '/imagenes/SEGMENTO 13.png'},
-        {img: '/imagenes/SEGMENTO 14.png'}
+        {img: 'https://i.ibb.co/56cHH41/SEGMENTO-1.png'},
+        {img: 'https://i.ibb.co/XxHsByr/SEGMENTO-2.png'},
+        {img: 'https://i.ibb.co/qmGZ9qF/SEGMENTO-3.png'},
+        {img: 'https://i.ibb.co/ZXc2Ld1/SEGMENTO-4.png'},
+        {img: 'https://i.ibb.co/qnNXvpC/SEGMENTO-5.png'},
+        {img: 'https://i.ibb.co/8sCF5Cf/SEGMENTO-6.png'},
+        {img: 'https://i.ibb.co/T2yPtBY/SEGMENTO-7.png'},
+        {img: 'https://i.ibb.co/X27xH31/SEGMENTO-8.png'},
+        {img: 'https://i.ibb.co/vx6qfP9/SEGMENTO-9.png'},
+        {img: 'https://i.ibb.co/GkS4q1j/SEGMENTO-11.png'},
+        {img: 'https://i.ibb.co/KL496NY/SEGMENTO-12.png'},
+        {img: 'https://i.ibb.co/ZJts1j7/SEGMENTO-13.png'},
+        {img: 'https://i.ibb.co/smtyWvL/SEGMENTO-14.png'}
     ]
     let contador = 0
     const contenedor = document.querySelector('.slideshow')
